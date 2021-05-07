@@ -90,6 +90,19 @@ None yet...
 
 == Changelog ==
 
+= 1.0.1 05/07/2021 =
+* TWEAK: Remove use of `create_function()`.
+* BUG: Correct the name of the constant use to load the translation files.
+* OTHER: Update copyright year.
+* OTHER: README.txt tweaks.
+* OTHER: Update links from `http` to `https`.
+* I18N: Include German (Germany) translation.
+* I18N: Include Spanish (Mexico) translation.
+* DEV: Correct code alignment.
+* DEV: phpDoc corrections.
+* DEV: Update plugin header.
+* DEV: Update README.txt plugin header.
+
 = 1.0 07/28/2015 =
 * Initial release.
 
@@ -97,3 +110,6 @@ None yet...
 
 = 1.0 =
 Initial release.
+
+= 1.0.1 =
+It is recommended to backup before updating. Requires WordPress >= 5.1 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
