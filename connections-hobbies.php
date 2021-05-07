@@ -13,7 +13,7 @@
  * Plugin Name:       Connections Business Directory Extension - Hobbies
  * Plugin URI:        https://connections-pro.com/add-on/hobbies/
  * Description:       An extension for the Connections plugin which adds a metabox for hobbies.
- * Version:           1.0
+ * Version:           1.0.1
  * Author:            Steven A. Zahm
  * Author URI:        https://connections-pro.com
  * License:           GPL-2.0+
@@ -67,7 +67,7 @@ if ( ! class_exists('Connections_Hobbies') ) {
 		 */
 		private static function defineConstants() {
 
-			define( 'CNHOBBY_CURRENT_VERSION', '1.0' );
+			define( 'CNHOBBY_CURRENT_VERSION', '1.0.1' );
 			define( 'CNHOBBY_DIR_NAME', plugin_basename( dirname( __FILE__ ) ) );
 			define( 'CNHOBBY_BASE_NAME', plugin_basename( __FILE__ ) );
 			define( 'CNHOBBY_PATH', plugin_dir_path( __FILE__ ) );
