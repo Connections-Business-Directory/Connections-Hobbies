@@ -2,22 +2,22 @@
 /**
  * An extension for the Connections plugin which adds a metabox for hobbies.
  *
- * @package   Connections Hobbies
+ * @package   Connections Business Directory Extension - Hobbies
  * @category  Extension
  * @author    Steven A. Zahm
  * @license   GPL-2.0+
- * @link      http://connections-pro.com
+ * @link      https://connections-pro.com
  * @copyright 2021 Steven A. Zahm
  *
  * @wordpress-plugin
- * Plugin Name:       Connections Hobbies
- * Plugin URI:        http://connections-pro.com
+ * Plugin Name:       Connections Business Directory Extension - Hobbies
+ * Plugin URI:        https://connections-pro.com/add-on/hobbies/
  * Description:       An extension for the Connections plugin which adds a metabox for hobbies.
  * Version:           1.0
  * Author:            Steven A. Zahm
- * Author URI:        http://connections-pro.com
+ * Author URI:        https://connections-pro.com
  * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       connections_hobbies
  * Domain Path:       /languages
  */
