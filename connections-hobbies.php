@@ -109,7 +109,7 @@ if ( ! class_exists('Connections_Hobbies') ) {
 			$domain = 'connections_hobbies';
 
 			// Set filter for plugin's languages directory
-			$languagesDirectory = apply_filters( "cn_{$domain}_languages_directory", CN_DIR_NAME . '/languages/' );
+			$languagesDirectory = apply_filters( "cn_{$domain}_languages_directory", CNHOBBY_DIR_NAME . '/languages/' );
 
 			// Traditional WordPress plugin locale filter
 			$locale   = apply_filters( 'plugin_locale', get_locale(), $domain );
