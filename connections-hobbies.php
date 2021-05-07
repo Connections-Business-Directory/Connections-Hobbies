@@ -407,24 +407,19 @@ if ( ! class_exists('Connections_Hobbies') ) {
 		}
 
 		/**
+		 * Callback for the `cn_output_meta_field-hobbies` action.
+		 *
 		 * Renders the Hobbies content block.
 		 *
-		 * Called by the cn_meta_output_field-hobbies action in cnOutput->getMetaBlock().
+		 * @internal
+		 * @since 1.0
 		 *
-		 * @access  private
-		 * @since   1.0
-		 * @static
-		 *
-		 * @uses    esc_attr()
-		 *
-		 * @param  string $id     The field id.
-		 * @param  array  $value  The hobby ID.
-		 * @param  null   $object
-		 * @param  array  $atts   The shortcode atts array passed from the calling action.
-		 *
-		 * @return string
+		 * @param string       $id     The field id.
+		 * @param array        $value  The hobby ID.
+		 * @param cnEntry_HTML $object Instance of the cnEntry object.
+		 * @param array        $atts   The shortcode atts array passed from the calling action.
 		 */
-		public static function block( $id, $value, $object = NULL, $atts ) {
+		public static function block( $id, $value, $object, $atts ) {
 
 			echo '<ul class="cn-hobbies">';
 
