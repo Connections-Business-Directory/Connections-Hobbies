@@ -450,21 +450,21 @@ if ( ! class_exists('Connections_Hobbies') ) {
 	 */
 	function Connections_Hobbies() {
 
-			if ( class_exists('connectionsLoad') ) {
+		if ( class_exists( 'connectionsLoad' ) ) {
 
-					return new Connections_Hobbies();
+			return new Connections_Hobbies();
 
-			} else {
+		} else {
 
-				add_action(
-					'admin_notices',
-					 function() {
-						echo '<div id="message" class="error"><p><strong>ERROR:</strong> Connections must be installed and active in order use Connections Hobbies.</p></div>';
-					}
-				);
+			add_action(
+				'admin_notices',
+				function() {
+					echo '<div id="message" class="error"><p><strong>ERROR:</strong> Connections must be installed and active in order use Connections Hobbies.</p></div>';
+				}
+			);
 
-				return FALSE;
-			}
+			return false;
+		}
 	}
 
 	/**
